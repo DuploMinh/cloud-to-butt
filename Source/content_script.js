@@ -39,11 +39,11 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
-	
+	v = v.replace(/\bTrump\b/g, "Obama");
+	v = v.replace(/\bDonald Trump\b/g, "Barack Obama");
+	v = v.replace(/\bdonald Trump\b/g, "barack Obama");
+	v = v.replace(/\bDonald trump\b/g, "Barack obama");
+	v = v.replace(/\bdonald trump\b/g, "barack bbama");
 	textNode.nodeValue = v;
 }
 
